@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Bundle version="1.0" xsi:schemaLocation="" xmlns="https://emsfs.autodesk.com/schema/manifest/1/0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Identity>
+        <Publisher>Autodesk, Inc.</Publisher>
+        <DisplayName>Autodesk Civil 3D 2025 - English</DisplayName>
+        <PLC>CIV3D</PLC>
+        <Release>2025</Release>
+        <BuildNumber>13.7.145.0</BuildNumber>
+        <UPI2>{3D456298-946E-369A-852A-56ADD40547D0}</UPI2>
+        <UpgradeCode>{91CF2F7E-1B9C-3E6E-BC57-D27B26FE03E9}</UpgradeCode>
+        <ConstantId>{A3F778E6-B24C-37B7-ABF5-4491EA21C54F}</ConstantId>
+        <Signature>HQ0SyxOYcN5op2LNpXkSMak093Fu4yd1m1zfxOEk1hs=</Signature>
+        <Type>PRD</Type>
+    </Identity>
+    <Resources>
+        <Files>
+            <File id="featureJson">SetupRes/feature.json</File>
+        </Files>
+        <LocalizedResources>SetupRes/locale/%setuplang%/setup.xml</LocalizedResources>
+        <Images>
+            <Image id="ProductIconImage">SetupRes/icons/c3d.svg</Image>
+            <Image id="ProductBrandImage">SetupRes/branding/c3d.png</Image>
+            <Image id="ProductLogoImage">SetupRes/icons/c3d.ico</Image>
+            <Image id="ProductARPIcon">SetupRes/icons/c3d.ico</Image>
+        </Images>
+        <UIStyle style="Rosetta.Dark"/>
+    </Resources>
+    <Configuration>
+        <Conditions>
+            <Condition messageId="AcadStillRunning" state="RUNNING"><![CDATA[(%ADSK_RUNNING_PROC_LIST% CONTAINS acad.exe)]]></Condition>
+            <Condition messageId="xx" state="NOT_RECOMMENDED" type="SYSTEM_REQUIREMENT"><![CDATA[( %ADSK_MEMORY_RAM% < 4) ]]></Condition>
+            <Condition messageId="xx" state="NOT_APPLICABLE" type="SYSTEM_REQUIREMENT"><![CDATA[( %ADSK_MEMORY_RAM% < 2) ]]></Condition>
+            <Condition messageId="xx" state="NOT_APPLICABLE" type="SYSTEM_REQUIREMENT"><![CDATA[( %GRAPHICS_FEATURE_LEVEL% < 30 )]]></Condition>
+            <Condition messageId="hasInstalled" state="INSTALLED"><![CDATA[((%ADSK_WIN_INSTALLED_MSI% CONTAINS {28B89EEF-8100-0409-2102-CF3F3A09B77D}) AND (NOT(%C3D_PRD_INSTALLED_VER% = 13.7.145.0)))]]></Condition>
+        </Conditions>
+        <Attributes/>
+        <AdditionalBundleInfo/>
+        <Platforms>
+            <Platform name="Windows" architecture="x64" minVersion="10.0.17763" useNTVersion="true"/>
+        </Platforms>
+        <Languages>
+            <Language langId="en-US"></Language>
+        </Languages>
+        <Properties>
+            <Property property="GRAPHICS_FEATURE_LEVEL">
+                <GraphicsCheck/>
+            </Property>
+            <Property property="ACAD_INSTALL_PATH" defaultValue="%INSTALL_DEST%\AutoCAD 2025\">
+                <RegistrySearch id="SearchInstallLocation" key="SOFTWARE\Autodesk\AutoCAD\R25.0\InstalledProducts" name="" root="HKLM"/>
+            </Property>
+            <Property property="ADSK_PREVIOUS_INSTALLED_LOCATION" defaultValue="">
+                <RegistrySearch id="SearchInstallLocation" key="SOFTWARE\Autodesk\AutoCAD\R25.0\InstalledProducts" name="" root="HKLM"/>
+            </Property>
+            <Property property="C3D_PRD_INSTALLED_VER">
+                <MsiSearch name="VersionString" productCode="{28B89EEF-8100-0409-2102-CF3F3A09B77D}"/>
+            </Property>
+        </Properties>
+        <Media>
+            <Disk diskLabel="C3D2025" diskPromptId="DiskPrompt" defaultDisk="true"></Disk>
+        </Media>
+    </Configuration>
+    <Settings>
+        <Setting name="CD_AECCONTENTROOT" defaultVal="%PROGRAMDATA%\Autodesk\C3D 2025\enu\" deployment="true" standalone="true"><![CDATA[]]></Setting>
+        <Setting name="CD_AECDATADIR" defaultVal="%PROGRAMDATA%\Autodesk\C3D 2025\enu\Data\" deployment="true" standalone="true"><![CDATA[]]></Setting>
+        <Setting name="CD_SURVEY_FOLDER" defaultVal="%PROGRAMDATA%\Autodesk\C3D 2025\enu\Survey\" deployment="true" standalone="true"><![CDATA[]]></Setting>
+        <Setting name="CD_PROJECT_WORKING_FOLDER" defaultVal="%PUBLIC%\Documents\Autodesk\Civil 3D Projects\" deployment="true" standalone="true"><![CDATA[]]></Setting>
+        <Setting name="SHORTCUT_IMPERIAL" defaultVal="1" deployment="true" standalone="true"><![CDATA[]]></Setting>
+        <Setting name="SHORTCUT_METRIC" defaultVal="1" deployment="true" standalone="true"><![CDATA[]]></Setting>
+        <Setting name="DESKTOP_SHORTCUT_CUSTOM_PROFILE" defaultVal="has_desktop_shortcut" deployment="true" standalone="true"><![CDATA[]]></Setting>
+        <Setting name="OPT_SAVETOWEBANDMOBILE_INSTALL" defaultVal="1" deployment="true" standalone="false"><![CDATA[]]></Setting>
+        <Setting name="OPT_APPMANAGER_INSTALL" defaultVal="1" deployment="true" standalone="false"><![CDATA[]]></Setting>
+        <Setting name="OPT_FEATUREDAPPS_INSTALL" defaultVal="1" deployment="true" standalone="false"><![CDATA[]]></Setting>
+        <Setting name="OPT_WEBFILEOPEN_INSTALL" defaultVal="1" deployment="true" standalone="false"><![CDATA[]]></Setting>
+        <Setting name="SUPPORT_CONTENT_ROOT" defaultVal="" deployment="true" standalone="false"><![CDATA[]]></Setting>
+        <Setting name="SUPPORT_CONTENT_CUSTOM_PATH" defaultVal="" deployment="true" standalone="false"><![CDATA[]]></Setting>
+        <Setting name="USE_PREVIOUS_INSTALLED_LOCATION" defaultVal="true" deployment="true" standalone="true"><![CDATA[]]></Setting>
+        <Setting name="LOCKSECURITYSETTINGS" defaultVal="0" deployment="true" standalone="false"><![CDATA[]]></Setting>
+        <Setting name="SECURELOAD" defaultVal="1" deployment="true" standalone="false"><![CDATA[]]></Setting>
+        <Setting name="ACADProfile_TrustedPaths" defaultVal="" deployment="true" standalone="false"><![CDATA[]]></Setting>
+        <Setting name="LEGACYCODESEARCH" defaultVal="0" deployment="true" standalone="false"><![CDATA[]]></Setting>
+        <Setting name="ACADLspAsDoc" defaultVal="#0" deployment="true" standalone="false"><![CDATA[]]></Setting>
+        <Setting name="ACOMP_EXPRESS_TOOLS" defaultVal="1" deployment="true" standalone="false"><![CDATA[]]></Setting>
+        <Setting name="ACAD_USE_ONLINE_CONTENT" defaultVal="#1" deployment="true" standalone="false"><![CDATA[]]></Setting>
+        <Setting name="ACAD_ENABLE_SEND_PC_NAME" defaultVal="#1" deployment="true" standalone="false"><![CDATA[]]></Setting>
+        <Setting name="ACAD_ENABLE_ROUNDTRIP" defaultVal="#1" deployment="true" standalone="false"><![CDATA[]]></Setting>
+    </Settings>
+    <Applications>
+        <Application sequence="1" installAs="core" name="Civil 3D 2025 - English" external="false" path="manifest/app.c3d.xml" upi2="{8D6D85A9-4382-3243-89C2-D4DD6826BAE5}" upgradeCode="{995C544E-8966-35E3-A1B1-A487E014500D}"/>
+        <Application sequence="2" installAs="optional" preSelected="true" name="Subassembly Composer 2025" external="false" path="manifest/app.sac.xml" upi2="{E31E79C0-D6BB-33CE-B64E-F7C27DDA0658}" upgradeCode="{BFE60C0C-3B0B-3A0B-8534-A6B3C97DB184}"/>
+    </Applications>
+</Bundle>

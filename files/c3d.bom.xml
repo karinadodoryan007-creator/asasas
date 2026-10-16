@@ -1,0 +1,646 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ambom>
+    <FileName>file.xml</FileName>
+    <MAVer>5.2.0.0</MAVer>
+    <WorkSpaceId>0</WorkSpaceId>
+    <DmsId>1234</DmsId>
+    <assemblies>
+        <assembly>
+            <RefId>{68737BA4-7CAE-37DF-91BE-195162394911}</RefId>
+            <Name>Autodesk Civil 3D 2025 - English</Name>
+            <UnitType>PRD - Product</UnitType>
+            <Description>Autodesk Civil 3D 2025 - English</Description>
+            <Upi2>{3D456298-946E-369A-852A-56ADD40547D0}</Upi2>
+            <BuildDate>02/26/2024 09:06:10 PM</BuildDate>
+            <BuildNumber>13.7.145.0</BuildNumber>
+            <ProductLine>CIV3D</ProductLine>
+            <Version>2025</Version>
+            <SubRelease>0</SubRelease>
+            <Platform>WIN64 - Windows 64-bit</Platform>
+            <Language>en-US - English - United States</Language>
+            <assemblies>
+                <assembly>
+                    <RefId>{DA3A6E2C-80F4-3DD4-8534-263210DD57EF}</RefId>
+                    <Name>Autodesk Civil 3D 2025 - English</Name>
+                    <UnitType>APP - Application</UnitType>
+                    <Description>Autodesk Civil 3D 2025 - English</Description>
+                    <Upi2>{55453605-8376-4AEA-9347-1504F01B286E}</Upi2>
+                    <BuildDate>02/26/2024 09:06:05 PM</BuildDate>
+                    <BuildNumber>13.7.145.0</BuildNumber>
+                    <ProductLine>CIV3D</ProductLine>
+                    <Version>2025</Version>
+                    <SubRelease>0</SubRelease>
+                    <Platform>WIN64 - Windows 64-bit</Platform>
+                    <Language>en-US - English - United States</Language>
+                    <assemblies>
+                        <assembly>
+                            <RefId>{49FFEE11-5AB0-31ED-9F84-7B9DC7C91F90}</RefId>
+                            <Name>Autodesk Civil 3D 2025 Private Pack</Name>
+                            <UnitType>COM - Component</UnitType>
+                            <Description>Autodesk Civil 3D 2025 Private Pack</Description>
+                            <Upi2>{E32D5241-4674-4D59-9859-EC4679C34D4A}</Upi2>
+                            <BuildDate>02/26/2024 09:06:02 PM</BuildDate>
+                            <BuildNumber>13.7.145.0</BuildNumber>
+                            <ProductLine>CIV3D</ProductLine>
+                            <Version>2025</Version>
+                            <SubRelease>0</SubRelease>
+                            <Platform>WIN64 - Windows 64-bit</Platform>
+                            <Language>NA - Language Independent</Language>
+                            <assemblies>
+<assembly>
+    <RefId>{2DC3C679-E7E3-3AC7-93AE-22071155714E}</RefId>
+    <Name>Civil 3D 2025</Name>
+    <UnitType>COM - Component</UnitType>
+    <Description>Civil 3D 2025</Description>
+    <Upi2>{877C5247-153A-3BC7-B845-8F3F5591C858}</Upi2>
+    <BuildDate>02/26/2024 09:05:58 PM</BuildDate>
+    <BuildNumber>13.7.145.0</BuildNumber>
+    <ProductLine>CIV3D</ProductLine>
+    <Version>2025</Version>
+    <SubRelease>0</SubRelease>
+    <Platform>WIN64 - Windows 64-bit</Platform>
+    <Language>NA - Language Independent</Language>
+    <Restricted>false</Restricted>
+</assembly>
+<assembly>
+    <RefId>{62E55EA9-6D02-306E-8917-052B10F0B20F}</RefId>
+    <Name>Civil 3D 2025 Learning Content</Name>
+    <UnitType>COM - Component</UnitType>
+    <Description>Civil 3D 2025 Learning Content</Description>
+    <Upi2>{ACFB5070-1A8D-31FB-BECC-37D472AD90F9}</Upi2>
+    <BuildDate>02/26/2024 09:06:00 PM</BuildDate>
+    <BuildNumber>13.7.145.0</BuildNumber>
+    <ProductLine>CIV3D</ProductLine>
+    <Version>2025</Version>
+    <SubRelease>0</SubRelease>
+    <Platform>WIN64 - Windows 64-bit</Platform>
+    <Language>NA - Language Independent</Language>
+    <Restricted>false</Restricted>
+</assembly>
+<assembly>
+    <RefId>{8D30CF3B-66D7-3D15-8B3A-29A1F7E2906B}</RefId>
+    <Name>AutoCAD 2025</Name>
+    <UnitType>COM - Component</UnitType>
+    <Description>AutoCAD 2025</Description>
+    <Upi2>{88711936-A089-3C91-988F-441E050F3E46}</Upi2>
+    <BuildDate>02/26/2024 09:06:00 PM</BuildDate>
+    <BuildNumber>25.0.58.0</BuildNumber>
+    <ProductLine>ACD</ProductLine>
+    <Version>2025</Version>
+    <SubRelease>0</SubRelease>
+    <Platform>WIN64 - Windows 64-bit</Platform>
+    <Language>NA - Language Independent</Language>
+    <Restricted>false</Restricted>
+</assembly>
+<assembly>
+    <RefId>{96782849-7053-3FFC-BF99-A0A5F2E8A7D6}</RefId>
+    <Name>AutoCAD Shared 2025</Name>
+    <UnitType>COM - Component</UnitType>
+    <Description>AutoCAD Shared 2025</Description>
+    <Upi2>{49B29509-57BA-366F-84CE-27D1E6D14B83}</Upi2>
+    <BuildDate>02/26/2024 09:06:00 PM</BuildDate>
+    <BuildNumber>25.0.58.0</BuildNumber>
+    <ProductLine>ACD</ProductLine>
+    <Version>2025</Version>
+    <SubRelease>0</SubRelease>
+    <Platform>WIN64 - Windows 64-bit</Platform>
+    <Language>NA - Language Independent</Language>
+    <Restricted>false</Restricted>
+</assembly>
+<assembly>
+    <RefId>{77D2A8AD-607F-37B6-BA05-C5133FFA50B6}</RefId>
+    <Name>Autodesk AutoCAD Map 3D 2025</Name>
+    <UnitType>COM - Component</UnitType>
+    <Description>Autodesk AutoCAD Map 3D 2025</Description>
+    <Upi2>{8D5B64FF-A3DA-3414-B962-00F1AC1B3507}</Upi2>
+    <BuildDate>02/26/2024 09:06:01 PM</BuildDate>
+    <BuildNumber>28.0.42.6</BuildNumber>
+    <ProductLine>MAP</ProductLine>
+    <Version>2025</Version>
+    <SubRelease>0</SubRelease>
+    <Platform>WIN64 - Windows 64-bit</Platform>
+    <Language>NA - Language Independent</Language>
+    <Restricted>false</Restricted>
+</assembly>
+<assembly>
+    <RefId>{2DDAB4DE-71F6-34E3-98AD-19D5A7C99F23}</RefId>
+    <Name>AutoCAD Architecture 2025 Shared</Name>
+    <UnitType>COM - Component</UnitType>
+    <Description>AutoCAD Architecture 2025 Shared</Description>
+    <Upi2>{B8CD0829-23F3-3D7D-9C97-4A5011C5CE14}</Upi2>
+    <BuildDate>02/26/2024 09:06:01 PM</BuildDate>
+    <BuildNumber>8.7.49.0</BuildNumber>
+    <ProductLine>ARCHDESK</ProductLine>
+    <Version>2025</Version>
+    <SubRelease>0</SubRelease>
+    <Platform>WIN64 - Windows 64-bit</Platform>
+    <Language>NA - Language Independent</Language>
+    <Restricted>false</Restricted>
+</assembly>
+<assembly>
+    <RefId>{B0120DFF-7BC0-341B-B4B9-99D2EC9545AC}</RefId>
+    <Name>FME for Autodesk AutoCAD Map 3D 2025</Name>
+    <UnitType>COM - Component</UnitType>
+    <Description>FME for Autodesk AutoCAD Map 3D 2025</Description>
+    <Upi2>{4DDC10ED-33D2-3111-84B5-881BFDCBDF50}</Upi2>
+    <BuildDate>02/26/2024 09:06:02 PM</BuildDate>
+    <BuildNumber>28.0.42.6</BuildNumber>
+    <ProductLine>MAP</ProductLine>
+    <Version>2025</Version>
+    <SubRelease>0</SubRelease>
+    <Platform>WIN64 - Windows 64-bit</Platform>
+    <Language>NA - Language Independent</Language>
+    <Restricted>false</Restricted>
+</assembly>
+<assembly>
+    <RefId>{F1AEDBBB-DA32-3AB0-A4B7-07D351C9BAF6}</RefId>
+    <Name>Autodesk Licensing Service - 14.0.0.10160 - Win - Update</Name>
+    <UnitType>COM - Component</UnitType>
+    <Description>Autodesk Licensing Service - 14.0.0.10160 - Win - Update</Description>
+    <Upi2>{0401B45F-091C-3D47-B924-A1B6F3E6FFC3}</Upi2>
+    <BuildDate>02/26/2024 09:06:02 PM</BuildDate>
+    <BuildNumber>14.0.0.10160</BuildNumber>
+    <ProductLine>PLC0000036</ProductLine>
+    <Version>1.0</Version>
+    <SubRelease>0</SubRelease>
+    <Platform>WIN64 - Windows 64-bit</Platform>
+    <Language>NA - Language Independent</Language>
+    <Restricted>false</Restricted>
+</assembly>
+<assembly>
+    <RefId>{92E3EE39-25E2-390F-9ECC-FFC94A6FDFF4}</RefId>
+    <Name>Autodesk Identity Manager Component</Name>
+    <UnitType>COM - Component</UnitType>
+    <Description>Autodesk Identity Manager Component</Description>
+    <Upi2>{11FD7BD1-89C4-37FB-8532-23551BE62E96}</Upi2>
+    <BuildDate>02/26/2024 09:06:02 PM</BuildDate>
+    <BuildNumber>1.11.9.11</BuildNumber>
+    <ProductLine>IDSDK</ProductLine>
+    <Version>1.0</Version>
+    <SubRelease>0</SubRelease>
+    <Platform>WIN64 - Windows 64-bit</Platform>
+    <Language>en-US - English - United States</Language>
+    <Restricted>false</Restricted>
+</assembly>
+<assembly>
+    <RefId>{BF8D4EE5-1240-3315-98CF-7B9991E877BF}</RefId>
+    <Name>Autodesk CER Service</Name>
+    <UnitType>COM - Component</UnitType>
+    <Description>Autodesk CER Service</Description>
+    <Upi2>{F9F4F372-AB9C-4CFC-B436-D2707D333593}</Upi2>
+    <BuildDate>02/26/2024 09:06:02 PM</BuildDate>
+    <BuildNumber>7.0.1.610</BuildNumber>
+    <ProductLine>CERCLIENT</ProductLine>
+    <Version>1.0</Version>
+    <SubRelease>0</SubRelease>
+    <Platform>WIN64 - Windows 64-bit</Platform>
+    <Language>NA - Language Independent</Language>
+    <Restricted>false</Restricted>
+</assembly>
+<assembly>
+    <RefId>{868D04C6-227D-32C8-B308-9D375C97FFA2}</RefId>
+    <Name>ADP Desktop SDK</Name>
+    <UnitType>COM - Component</UnitType>
+    <Description>ADP Desktop SDK</Description>
+    <Upi2>{2D5CBF31-1344-39A5-B248-273531333480}</Upi2>
+    <BuildDate>02/26/2024 09:06:02 PM</BuildDate>
+    <BuildNumber>5.0.30.0</BuildNumber>
+    <ProductLine>ADPSDK</ProductLine>
+    <Version>2023</Version>
+    <SubRelease>0</SubRelease>
+    <Platform>WIN64 - Windows 64-bit</Platform>
+    <Language>NA - Language Independent</Language>
+    <Restricted>false</Restricted>
+</assembly>
+<assembly>
+    <RefId>{FC843CA1-054C-3742-834C-DC1D9CAB306D}</RefId>
+    <Name>Autodesk Material Library Base Resolution Image Library 4</Name>
+    <UnitType>COM - Component</UnitType>
+    <Description>Autodesk Material Library Base Resolution Image Library 4</Description>
+    <Upi2>{F8AA36A8-02CD-31BF-AA5B-DE5AD3922635}</Upi2>
+    <BuildDate>02/26/2024 09:06:02 PM</BuildDate>
+    <BuildNumber>4.1.0.3</BuildNumber>
+    <ProductLine>PLC0000014</ProductLine>
+    <Version>2024</Version>
+    <SubRelease>0</SubRelease>
+    <Platform>WIN64 - Windows 64-bit</Platform>
+    <Language>cs - Czech,de - German,en-US - English - United States,es - Spanish,fr - French,it - Italian,ja - Japanese,ko - Korean,pl - Polish,pt-BR - Portuguese - Brazilian,ru - Russian,zh-Hans - Simplified Chinese,zh-Hant - Traditional Chinese</Language>
+    <Restricted>false</Restricted>
+</assembly>
+<assembly>
+    <RefId>{7564FFAA-762D-3E04-ADEA-EDDB196B8708}</RefId>
+    <Name>Autodesk Material Library 4</Name>
+    <UnitType>COM - Component</UnitType>
+    <Description>Autodesk Material Library 4</Description>
+    <Upi2>{4D3C08E7-12E9-37D9-87CD-0B06509709C1}</Upi2>
+    <BuildDate>02/26/2024 09:06:02 PM</BuildDate>
+    <BuildNumber>4.1.0.3</BuildNumber>
+    <ProductLine>PLC0000013</ProductLine>
+    <Version>2024</Version>
+    <SubRelease>0</SubRelease>
+    <Platform>WIN64 - Windows 64-bit</Platform>
+    <Language>cs - Czech,de - German,en-US - English - United States,es - Spanish,fr - French,it - Italian,ja - Japanese,ko - Korean,pl - Polish,pt-BR - Portuguese - Brazilian,ru - Russian,zh-Hans - Simplified Chinese,zh-Hant - Traditional Chinese</Language>
+    <Restricted>false</Restricted>
+</assembly>
+                            </assemblies>
+                            <Restricted>false</Restricted>
+                        </assembly>
+                        <assembly>
+                            <RefId>{CE742BE2-340C-3AF6-B063-111ADD504CBD}</RefId>
+                            <Name>Civil 3D 2025 Language Pack - English</Name>
+                            <UnitType>COM - Component</UnitType>
+                            <Description>Civil 3D 2025 Language Pack - English</Description>
+                            <Upi2>{E42E2D4D-20A2-32D5-BEB1-55BC28981705}</Upi2>
+                            <BuildDate>02/26/2024 09:06:02 PM</BuildDate>
+                            <BuildNumber>13.7.145.0</BuildNumber>
+                            <ProductLine>CIV3D</ProductLine>
+                            <Version>2025</Version>
+                            <SubRelease>0</SubRelease>
+                            <Platform>WIN64 - Windows 64-bit</Platform>
+                            <Language>en-US - English - United States</Language>
+                            <Restricted>false</Restricted>
+                        </assembly>
+                        <assembly>
+                            <RefId>{ADE1E553-7732-3DB3-8E6C-EA566C950F14}</RefId>
+                            <Name>Civil 3D 2025 Content - English</Name>
+                            <UnitType>COM - Component</UnitType>
+                            <Description>Civil 3D 2025 Content - English</Description>
+                            <Upi2>{03E7F0E4-1855-3682-A4AD-A01678061E8C}</Upi2>
+                            <BuildDate>02/26/2024 09:06:05 PM</BuildDate>
+                            <BuildNumber>13.7.145.0</BuildNumber>
+                            <ProductLine>CIV3D</ProductLine>
+                            <Version>2025</Version>
+                            <SubRelease>0</SubRelease>
+                            <Platform>WIN64 - Windows 64-bit</Platform>
+                            <Language>en-US - English - United States</Language>
+                            <Restricted>false</Restricted>
+                        </assembly>
+                        <assembly>
+                            <RefId>{8AE3AA9D-E905-389E-A7F7-51579078F4AC}</RefId>
+                            <Name>Autodesk AutoCAD 2025 - English</Name>
+                            <UnitType>COM - Component</UnitType>
+                            <Description>Autodesk AutoCAD 2025 - English</Description>
+                            <Upi2>{50F202F4-9804-3D85-B6D9-5D9FDA46D108}</Upi2>
+                            <BuildDate>02/26/2024 09:06:05 PM</BuildDate>
+                            <BuildNumber>25.0.58.0</BuildNumber>
+                            <ProductLine>ACD</ProductLine>
+                            <Version>2025</Version>
+                            <SubRelease>0</SubRelease>
+                            <Platform>WIN64 - Windows 64-bit</Platform>
+                            <Language>en-US - English - United States</Language>
+                            <Restricted>false</Restricted>
+                        </assembly>
+                        <assembly>
+                            <RefId>{06B44A7E-90FA-32B1-A557-1E4F6A678EBD}</RefId>
+                            <Name>Autodesk AutoCAD Shared 2025 - English</Name>
+                            <UnitType>COM - Component</UnitType>
+                            <Description>Autodesk AutoCAD Shared 2025 - English</Description>
+                            <Upi2>{E98642BA-69BB-32CF-8D3C-FE46EF685B89}</Upi2>
+                            <BuildDate>02/26/2024 09:06:05 PM</BuildDate>
+                            <BuildNumber>25.0.58.0</BuildNumber>
+                            <ProductLine>ACD</ProductLine>
+                            <Version>2025</Version>
+                            <SubRelease>0</SubRelease>
+                            <Platform>WIN64 - Windows 64-bit</Platform>
+                            <Language>en-US - English - United States</Language>
+                            <Restricted>false</Restricted>
+                        </assembly>
+                        <assembly>
+                            <RefId>{C68366F1-6073-3B7A-ADB6-348B0C05E1DE}</RefId>
+                            <Name>AutoCAD Architecture 2025 Language Shared - English</Name>
+                            <UnitType>COM - Component</UnitType>
+                            <Description>AutoCAD Architecture 2025 Language Shared - English</Description>
+                            <Upi2>{F861E73F-1417-351E-8395-7A4DE8FB7480}</Upi2>
+                            <BuildDate>02/26/2024 09:06:05 PM</BuildDate>
+                            <BuildNumber>8.7.49.0</BuildNumber>
+                            <ProductLine>ARCHDESK</ProductLine>
+                            <Version>2025</Version>
+                            <SubRelease>0</SubRelease>
+                            <Platform>WIN64 - Windows 64-bit</Platform>
+                            <Language>en-US - English - United States</Language>
+                            <Restricted>false</Restricted>
+                        </assembly>
+                        <assembly>
+                            <RefId>{65C5525F-AA8F-3E15-BD3F-1DA429285DAF}</RefId>
+                            <Name>Autodesk AutoCAD Map 3D 2025 - English</Name>
+                            <UnitType>COM - Component</UnitType>
+                            <Description>Autodesk AutoCAD Map 3D 2025 - English</Description>
+                            <Upi2>{4276F484-8F17-36E5-AB70-A5130243CA48}</Upi2>
+                            <BuildDate>02/26/2024 09:06:05 PM</BuildDate>
+                            <BuildNumber>28.0.42.6</BuildNumber>
+                            <ProductLine>MAP</ProductLine>
+                            <Version>2025</Version>
+                            <SubRelease>0</SubRelease>
+                            <Platform>WIN64 - Windows 64-bit</Platform>
+                            <Language>en-US - English - United States</Language>
+                            <Restricted>false</Restricted>
+                        </assembly>
+                        <assembly>
+                            <RefId>{4FF6E67C-DEFB-350C-B2B5-E67D9D5D396E}</RefId>
+                            <Name>ACA &amp; MEP 2025 Object Enabler</Name>
+                            <UnitType>COM - Component</UnitType>
+                            <Description>ACA &amp; MEP 2025 Object Enabler</Description>
+                            <Upi2>{56F468A8-928A-35F2-BE57-5E51EC91E52C}</Upi2>
+                            <BuildDate>02/26/2024 09:06:05 PM</BuildDate>
+                            <BuildNumber>8.7.49.0</BuildNumber>
+                            <ProductLine>ARCHDESK</ProductLine>
+                            <Version>2025</Version>
+                            <SubRelease>0</SubRelease>
+                            <Platform>WIN64 - Windows 64-bit</Platform>
+                            <Language>NA - Language Independent</Language>
+                            <Restricted>false</Restricted>
+                        </assembly>
+                        <assembly>
+                            <RefId>{58156B8D-8174-34B2-ABCA-9CEF113534BC}</RefId>
+                            <Name>AutoCAD Activity Insights</Name>
+                            <UnitType>COM - Component</UnitType>
+                            <Description>AutoCAD Activity Insights</Description>
+                            <Upi2>{E141F225-EF21-3CEF-BC97-FDEC03189517}</Upi2>
+                            <BuildDate>02/26/2024 09:06:05 PM</BuildDate>
+                            <BuildNumber>25.0.58.0</BuildNumber>
+                            <ProductLine>ACTINST</ProductLine>
+                            <Version>1.0</Version>
+                            <SubRelease>0</SubRelease>
+                            <Platform>WIN64 - Windows 64-bit</Platform>
+                            <Language>NA - Language Independent</Language>
+                            <Restricted>false</Restricted>
+                        </assembly>
+                        <assembly>
+                            <RefId>{DB1E107A-671B-345D-B24A-9A6A639BA08B}</RefId>
+                            <Name>Geospatial Coordinate Systems</Name>
+                            <UnitType>COM - Component</UnitType>
+                            <Description>Geospatial Coordinate Systems</Description>
+                            <Upi2>{51BC20D4-AABE-3DC9-BA09-693BC04CA7F1}</Upi2>
+                            <BuildDate>02/26/2024 09:06:05 PM</BuildDate>
+                            <BuildNumber>15.0.9.0</BuildNumber>
+                            <ProductLine>ACD</ProductLine>
+                            <Version>2025</Version>
+                            <SubRelease>0</SubRelease>
+                            <Platform>WIN64 - Windows 64-bit</Platform>
+                            <Language>NA - Language Independent</Language>
+                            <Restricted>false</Restricted>
+                        </assembly>
+                        <assembly>
+                            <RefId>{718BAC25-0A4E-3381-BFDF-F979963C0A3D}</RefId>
+                            <Name>AutoCAD BlockIndexer 2025</Name>
+                            <UnitType>COM - Component</UnitType>
+                            <Description>AutoCAD BlockIndexer 2025</Description>
+                            <Upi2>{4B0B8A50-1760-322C-9DB7-C504ADA3880C}</Upi2>
+                            <BuildDate>02/26/2024 09:06:05 PM</BuildDate>
+                            <BuildNumber>25.0.58.0</BuildNumber>
+                            <ProductLine>SMTBLKS</ProductLine>
+                            <Version>2025</Version>
+                            <SubRelease>0</SubRelease>
+                            <Platform>WIN64 - Windows 64-bit</Platform>
+                            <Language>NA - Language Independent</Language>
+                            <Restricted>false</Restricted>
+                        </assembly>
+                        <assembly>
+                            <RefId>{452511FF-F906-3CC5-95B0-D4EE0B9667CC}</RefId>
+                            <Name>Autodesk Save to Web and Mobile</Name>
+                            <UnitType>COM - Component</UnitType>
+                            <Description>Autodesk Save to Web and Mobile</Description>
+                            <Upi2>{87798A9F-4B94-49F7-BF19-2777977A459B}</Upi2>
+                            <BuildDate>02/26/2024 09:06:06 PM</BuildDate>
+                            <BuildNumber>3.1.6.0</BuildNumber>
+                            <ProductLine>ACD</ProductLine>
+                            <Version>3.0</Version>
+                            <SubRelease>0</SubRelease>
+                            <Platform>WIN64 - Windows 64-bit</Platform>
+                            <Language>NA - Language Independent</Language>
+                            <Restricted>false</Restricted>
+                        </assembly>
+                        <assembly>
+                            <RefId>{959D827C-574A-3ECE-B327-34A9A5A1786E}</RefId>
+                            <Name>Autodesk Genuine Service</Name>
+                            <UnitType>COM - Component</UnitType>
+                            <Description>Autodesk Genuine Service</Description>
+                            <Upi2>{5752D348-EB45-4BF3-9682-1D13270DB864}</Upi2>
+                            <BuildDate>02/26/2024 09:06:06 PM</BuildDate>
+                            <BuildNumber>7.4.0.223</BuildNumber>
+                            <ProductLine>AGS</ProductLine>
+                            <Version>4.0</Version>
+                            <SubRelease>0</SubRelease>
+                            <Platform>WIN64 - Windows 64-bit</Platform>
+                            <Language>NA - Language Independent</Language>
+                            <Restricted>false</Restricted>
+                        </assembly>
+                        <assembly>
+                            <RefId>{F9B1480E-E5AF-32F2-AEEF-19561590B949}</RefId>
+                            <Name>Autodesk App Manager</Name>
+                            <UnitType>COM - Component</UnitType>
+                            <Description>Autodesk App Manager</Description>
+                            <Upi2>{572EDC2F-9CE9-4D8D-BD45-5CD49408D6BC}</Upi2>
+                            <BuildDate>02/26/2024 09:06:06 PM</BuildDate>
+                            <BuildNumber>3.5.4.0</BuildNumber>
+                            <ProductLine>ACD</ProductLine>
+                            <Version>3.0</Version>
+                            <SubRelease>0</SubRelease>
+                            <Platform>WIN64 - Windows 64-bit</Platform>
+                            <Language>NA - Language Independent</Language>
+                            <Restricted>false</Restricted>
+                        </assembly>
+                        <assembly>
+                            <RefId>{DCB3A979-9FF5-3BDD-B023-CDB8D44BCCE1}</RefId>
+                            <Name>Autodesk Featured Apps</Name>
+                            <UnitType>COM - Component</UnitType>
+                            <Description>Autodesk Featured Apps</Description>
+                            <Upi2>{6654CECB-E47F-4D2F-A0AC-A5DD81D1D832}</Upi2>
+                            <BuildDate>02/26/2024 09:06:06 PM</BuildDate>
+                            <BuildNumber>3.5.4.0</BuildNumber>
+                            <ProductLine>ACD</ProductLine>
+                            <Version>3.0</Version>
+                            <SubRelease>0</SubRelease>
+                            <Platform>WIN64 - Windows 64-bit</Platform>
+                            <Language>NA - Language Independent</Language>
+                            <Restricted>false</Restricted>
+                        </assembly>
+                        <assembly>
+                            <RefId>{D36B4C3F-B966-348D-A041-5E5E0A14E93F}</RefId>
+                            <Name>AutoCAD Open in Desktop</Name>
+                            <UnitType>COM - Component</UnitType>
+                            <Description>AutoCAD Open in Desktop</Description>
+                            <Upi2>{D592F06E-768C-4622-9524-5DDD1A3157B8}</Upi2>
+                            <BuildDate>02/26/2024 09:06:06 PM</BuildDate>
+                            <BuildNumber>1.0.27.0</BuildNumber>
+                            <ProductLine>ACADOID</ProductLine>
+                            <Version>1.0</Version>
+                            <SubRelease>0</SubRelease>
+                            <Platform>WIN64 - Windows 64-bit</Platform>
+                            <Language>NA - Language Independent</Language>
+                            <Restricted>false</Restricted>
+                        </assembly>
+                        <assembly>
+                            <RefId>{0220DB08-FF80-3B2F-8DC7-68C9C438C08C}</RefId>
+                            <Name>Autodesk Interoperability Engine Manager</Name>
+                            <UnitType>COM - Component</UnitType>
+                            <Description>Autodesk Interoperability Engine Manager</Description>
+                            <Upi2>{AB188684-AB71-48DF-BC46-FEAAD1F230F2}</Upi2>
+                            <BuildDate>02/26/2024 09:06:06 PM</BuildDate>
+                            <BuildNumber>1.2.0.30</BuildNumber>
+                            <ProductLine>HIVE</ProductLine>
+                            <Version>1.0</Version>
+                            <SubRelease>0</SubRelease>
+                            <Platform>WIN64 - Windows 64-bit</Platform>
+                            <Language>en-US - English - United States</Language>
+                            <Restricted>false</Restricted>
+                        </assembly>
+                        <assembly>
+                            <RefId>{E908E6EA-A0A9-3BA6-8252-2163EB743B15}</RefId>
+                            <Name>Autodesk Installer</Name>
+                            <UnitType>COM - Component</UnitType>
+                            <Description>Autodesk Installer</Description>
+                            <Upi2>{3108B9DA-F32D-36DD-BCC0-7018E7919376}</Upi2>
+                            <BuildDate>02/26/2024 09:06:06 PM</BuildDate>
+                            <BuildNumber>2.4.0.126</BuildNumber>
+                            <ProductLine>ODIS</ProductLine>
+                            <Version>1.0</Version>
+                            <SubRelease>0</SubRelease>
+                            <Platform>WIN64 - Windows 64-bit</Platform>
+                            <Language>NA - Language Independent</Language>
+                            <Restricted>false</Restricted>
+                        </assembly>
+                        <assembly>
+                            <RefId>{ED7B3438-F5D6-3539-ADFE-8663418A4BC9}</RefId>
+                            <Name>Autodesk Access</Name>
+                            <UnitType>COM - Component</UnitType>
+                            <Description>Autodesk Access</Description>
+                            <Upi2>{7DBDAD2B-CA6A-3162-8C55-0FEC17BF95A8}</Upi2>
+                            <BuildDate>02/26/2024 09:06:06 PM</BuildDate>
+                            <BuildNumber>2.4.0.113</BuildNumber>
+                            <ProductLine>ACCESS</ProductLine>
+                            <Version>1.0</Version>
+                            <SubRelease>0</SubRelease>
+                            <Platform>WIN64 - Windows 64-bit</Platform>
+                            <Language>NA - Language Independent</Language>
+                            <Restricted>false</Restricted>
+                        </assembly>
+                        <assembly>
+                            <RefId>{F04305AC-60C3-373E-A974-9EC4796769FD}</RefId>
+                            <Name>Vehicle Tracking Core 2025</Name>
+                            <UnitType>COM - Component</UnitType>
+                            <Description>Vehicle Tracking Core 2025</Description>
+                            <Upi2>{2D0A2837-8E5C-42A0-8051-1C2AD0F3D090}</Upi2>
+                            <BuildDate>02/26/2024 09:06:06 PM</BuildDate>
+                            <BuildNumber>25.0.0.2775</BuildNumber>
+                            <ProductLine>VEHTRK</ProductLine>
+                            <Version>2025</Version>
+                            <SubRelease>0</SubRelease>
+                            <Platform>WIN64 - Windows 64-bit</Platform>
+                            <Language>en-US - English - United States</Language>
+                            <Restricted>false</Restricted>
+                        </assembly>
+                        <assembly>
+                            <RefId>{69A322C6-572C-36B2-94EE-C1CD251EB75A}</RefId>
+                            <Name>Dynamo for Autodesk Civil 3D 2025</Name>
+                            <UnitType>COM - Component</UnitType>
+                            <Description>Dynamo for Autodesk Civil 3D 2025</Description>
+                            <Upi2>{04A4F312-90AF-3AB4-B30F-B6C1C91940A9}</Upi2>
+                            <BuildDate>02/26/2024 09:06:08 PM</BuildDate>
+                            <BuildNumber>3.0.145.0</BuildNumber>
+                            <ProductLine>CIV3D</ProductLine>
+                            <Version>2025</Version>
+                            <SubRelease>0</SubRelease>
+                            <Platform>WIN64 - Windows 64-bit</Platform>
+                            <Language>NA - Language Independent</Language>
+                            <Restricted>false</Restricted>
+                        </assembly>
+                        <assembly>
+                            <RefId>{5B3D3713-34FF-3F74-894A-01F3D784A5C2}</RefId>
+                            <Name>Project Explorer for Civil 3D 2025</Name>
+                            <UnitType>COM - Component</UnitType>
+                            <Description>Project Explorer for Civil 3D 2025</Description>
+                            <Upi2>{5B4C9E57-5FCB-495D-A87D-A44325D6CF53}</Upi2>
+                            <BuildDate>02/26/2024 09:06:08 PM</BuildDate>
+                            <BuildNumber>13.7.972.0</BuildNumber>
+                            <ProductLine>CIV3D</ProductLine>
+                            <Version>2025</Version>
+                            <SubRelease>0</SubRelease>
+                            <Platform>WIN64 - Windows 64-bit</Platform>
+                            <Language>NA - Language Independent</Language>
+                            <Restricted>false</Restricted>
+                        </assembly>
+                        <assembly>
+                            <RefId>{6B19E805-2CC9-3045-A835-901D91B7F59C}</RefId>
+                            <Name>Autodesk Batch Save Utility (Standalone)</Name>
+                            <UnitType>COM - Component</UnitType>
+                            <Description>Autodesk Batch Save Utility (Standalone)</Description>
+                            <Upi2>{3B8DD987-9178-4576-89DA-DC444CD88AF9}</Upi2>
+                            <BuildDate>02/26/2024 09:06:08 PM</BuildDate>
+                            <BuildNumber>3.6.145.0</BuildNumber>
+                            <ProductLine>CIV3D</ProductLine>
+                            <Version>2025</Version>
+                            <SubRelease>0</SubRelease>
+                            <Platform>WIN64 - Windows 64-bit</Platform>
+                            <Language>NA - Language Independent</Language>
+                            <Restricted>false</Restricted>
+                        </assembly>
+                        <assembly>
+                            <RefId>{9A2D08DA-B32C-34B3-886C-589744E1C41F}</RefId>
+                            <Name>Autodesk Civil 3D 2025 Object Enabler</Name>
+                            <UnitType>COM - Component</UnitType>
+                            <Description>Autodesk Civil 3D 2025 Object Enabler</Description>
+                            <Upi2>{530C55A3-F4CD-3B55-9A61-D277BC88E215}</Upi2>
+                            <BuildDate>02/26/2024 09:06:08 PM</BuildDate>
+                            <BuildNumber>13.7.145.0</BuildNumber>
+                            <ProductLine>CIV3D</ProductLine>
+                            <Version>2025</Version>
+                            <SubRelease>0</SubRelease>
+                            <Platform>WIN64 - Windows 64-bit</Platform>
+                            <Language>NA - Language Independent</Language>
+                            <Restricted>false</Restricted>
+                        </assembly>
+                        <assembly>
+                            <RefId>{64A87BAA-E5F5-3A72-9CA3-5E0A114A5179}</RefId>
+                            <Name>Inventor Interoperability 2025</Name>
+                            <UnitType>COM - Component</UnitType>
+                            <Description>Inventor Interoperability 2025</Description>
+                            <Upi2>{94E76908-8841-3580-B32A-489C5EA9898C}</Upi2>
+                            <BuildDate>02/26/2024 09:06:09 PM</BuildDate>
+                            <BuildNumber>29.0.16200.0</BuildNumber>
+                            <ProductLine>INVSVR</ProductLine>
+                            <Version>2025</Version>
+                            <SubRelease>0</SubRelease>
+                            <Platform>WIN64 - Windows 64-bit</Platform>
+                            <Language>NA - Language Independent</Language>
+                            <assemblies>
+<assembly>
+    <RefId>{45C6967B-E568-310B-839A-82C76D1F7D9F}</RefId>
+    <Name>RealDWG Shared 2025</Name>
+    <UnitType>COM - Component</UnitType>
+    <Description>RealDWG Shared 2025</Description>
+    <Upi2>{F0F83866-7B29-3845-B384-BC107B3A951B}</Upi2>
+    <BuildDate>02/26/2024 09:06:08 PM</BuildDate>
+    <BuildNumber>25.0.58.0</BuildNumber>
+    <ProductLine>OBJ DBX</ProductLine>
+    <Version>2025</Version>
+    <SubRelease>0</SubRelease>
+    <Platform>WIN64 - Windows 64-bit</Platform>
+    <Language>NA - Language Independent</Language>
+    <Restricted>false</Restricted>
+</assembly>
+                            </assemblies>
+                            <Restricted>false</Restricted>
+                        </assembly>
+                    </assemblies>
+                    <Restricted>false</Restricted>
+                </assembly>
+                <assembly>
+                    <RefId>{3F01CE2B-405C-381F-A5B1-A24A05D34928}</RefId>
+                    <Name>Autodesk Subassembly Composer for Civil 3D 2025</Name>
+                    <UnitType>COM - Component</UnitType>
+                    <Description>Autodesk Subassembly Composer for Civil 3D 2025</Description>
+                    <Upi2>{26E2CA70-CDFD-3BAC-A30C-C51462295D61}</Upi2>
+                    <BuildDate>02/26/2024 09:06:10 PM</BuildDate>
+                    <BuildNumber>13.7.145.0</BuildNumber>
+                    <ProductLine>CIV3D</ProductLine>
+                    <Version>2025</Version>
+                    <SubRelease>0</SubRelease>
+                    <Platform>WIN64 - Windows 64-bit</Platform>
+                    <Language>NA - Language Independent</Language>
+                    <Restricted>false</Restricted>
+                </assembly>
+            </assemblies>
+        </assembly>
+    </assemblies>
+</ambom>
